@@ -5,9 +5,9 @@
 /**
  * Struct listint_s - Singly Linked List
  * @n:Integer
- * @next: It Points Right To The Nex Node
+ * @next: It Points Right To The Next Node
  *
- * DESCRIPTION: STRUCTURE OF SINGLY LINKED LIST NODE
+ * DESCRIPTION: STRUCTURE OF A SINGLY LINKED LIST NODE
  * To Alx Se Project c - more singly linked list
  */
 typedef struct listint_s
