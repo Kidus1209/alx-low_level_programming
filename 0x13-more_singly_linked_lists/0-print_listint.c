@@ -1,21 +1,20 @@
 #include "lists.h"
 
 /**
- * print_Listint - It Prints All Section Of Singly Linked lists
+ * print_listint - It Prints All Section Of Singly Linked lists
  * @h: A Category Of Linked List That Points To The First Node
  *
  * Return: Amount Of node List
  */
-size_t print_Listint(const Listint_t *A)
+size_t print_listint(const listint_t *h)
 {
 	size_t b = 0;
 
-	while (A)
+	while (h)
 	{
-		printf("%d\n", A->n);
-		A = A->Next;
+		printf("%d\n", h->n);
 		b++;
+		h = h->next;
 	}
 	return (b);
 }
-
