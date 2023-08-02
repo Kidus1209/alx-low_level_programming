@@ -9,8 +9,9 @@
  * @n: integer
  * @next: Next code is pointed by this 
  *
- * Description: singly linked list node structure
+ * description: singly linked list node structure
  * To alx software enginnering project named C - More singly linked lists
+ *
  */
 typedef struct listint_s
 {
