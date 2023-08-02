@@ -1,20 +1,22 @@
 #include "lists.h"
 
 /**
- * print_listint - It Prints All Section Of Singly Linked lists
- * @h: A Category Of Linked List That Points To The First Node
+ * print_listint - All categories of linked list are printed by this
+ * @h: A list of listint_t type to be prited
  *
- * Return: Amount Of node List
+ * Return: All nodes together
+ *
  */
 size_t print_listint(const listint_t *h)
 {
-	size_t b = 0;
+	size_t num = 0;
 
 	while (h)
 	{
 		printf("%d\n", h->n);
-		b++;
+		num++;
 		h = h->next;
 	}
-	return (b);
+
+	return (num);
 }
