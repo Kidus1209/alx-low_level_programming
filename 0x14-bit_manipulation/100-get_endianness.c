@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * Return: 0 if it is large and 1 if it is small..
+ * get_endianness - checks an endianess
  *
- * get_endianness - checks an endian
- *
+ * Return: 0 if it is large and 1 if it is small.
  */
-int get_endianness(void)
+ int get_endianness(void)
 {
 	unsigned long int n = 1;
 
