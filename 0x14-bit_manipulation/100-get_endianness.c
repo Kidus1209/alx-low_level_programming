@@ -5,9 +5,10 @@
  *
  * Return: 0 if it is large and 1 if it is small.
  */
- int get_endianness(void)
+int get_endianness(void)
 {
-	unsigned long int n = 1;
+	unsigned int i = 1;
+	char *c = (char *) &i;
 
-	return (*(char *)&n);
+	return (*c);
 }
