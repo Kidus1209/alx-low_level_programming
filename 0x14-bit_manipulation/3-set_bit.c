@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * set_bit _ sets bit at index
+ * set_bit - sets bit at index
  * @n: amount for index.
  * @index: Bit to be set
  *
