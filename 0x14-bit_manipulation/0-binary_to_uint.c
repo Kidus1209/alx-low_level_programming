@@ -2,8 +2,8 @@
 
 /**
  *
- * binary_to_uint; CHanges a binary number string into an Unsigned int
- * @b - THe binary as a string number
+ * binary_to_uint -  CHanges a binary number string into an Unsigned int
+ * @b: THe binary as a string number
  *
  * Return: changed unsigned int in form of another
  */
