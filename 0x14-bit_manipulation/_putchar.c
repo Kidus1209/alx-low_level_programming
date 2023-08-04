@@ -6,6 +6,8 @@
  * _putchar - Moves the C disposition (char) to Stdout.
  *
  * Return - on availability
+ * On error' -1 is returned, The error will be put exactly.
+
  */
 int _putchar(char c)
 {
